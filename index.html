@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrator Project</title>
+
+
+   
+    <link rel="stylesheet" href="style/styles.css">
+    <script defer src="scripts/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Palette Generator</h1>
+        </header>
+        <section>
+            <label for="quantity">Number of colors</label>
+            <select name="" id="quantity">
+                <option value="6">6 colors</option>
+                <option value="8">8 colors</option>
+                <option value="9">9 colors</option>
+            </select>
+            <label for="format">Color format</label>
+            <select id="format">
+                    <option value="hex">HEX</option>
+                    <option value="hsl">HSL</option>
+                </select>
+                <button id="generate">Generate Palette</button>
+        </section>
+        <section id="palette"></section>
+    </div>
+</body>
+
+</html>
