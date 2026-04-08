@@ -14,7 +14,7 @@ A simple and interactive web app that generates random color palettes in HEX and
 - JavaScript
 
 ## Live Demo
-https://cenfonnegra.github.io/color-palette-generator/
+https://cenfonnegra.github.io/ProyectoM1_FabianFonnegra/
 
 ## Installation
 1. Clone the repo
